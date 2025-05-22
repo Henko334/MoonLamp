@@ -4,8 +4,8 @@ import json
 from machine import Pin, PWM, ADC
 from umqtt_simple import MQTTClient
 
-WIFI_SSID = "VanStadenRoom"
-WIFI_PASSWORD = "Wildehond1"
+WIFI_SSID = "wifiNameHere"
+WIFI_PASSWORD = "PasswordHere"
 
 # MQTT Settings
 MQTT_BROKER = "192.168.0.3"  # Change to your HA MQTT broker IP
